@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3275F0602DE1D34800736BD6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3275F0582DE1D34800736BD6 /* Preview Assets.xcassets */; };
+		3275F0612DE1D34800736BD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3275F05A2DE1D34800736BD6 /* Assets.xcassets */; };
+		3275F0642DE1D46A00736BD6 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 3275F0632DE1D46A00736BD6 /* ComposableArchitecture */; };
+		3275F0682DE1D5AA00736BD6 /* AccountsMock.json in Resources */ = {isa = PBXBuildFile; fileRef = 3275F0672DE1D5AA00736BD6 /* AccountsMock.json */; };
+		3275F06A2DE1D5FE00736BD6 /* Mocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3275F0692DE1D5FE00736BD6 /* Mocks.swift */; };
+		3275F06D2DE1D65200736BD6 /* MockLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3275F06C2DE1D65200736BD6 /* MockLoadable.swift */; };
+		3275F0702DE1D77900736BD6 /* AccountService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3275F06F2DE1D77900736BD6 /* AccountService.swift */; };
+		3275F0732DE1D7CC00736BD6 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3275F0722DE1D7CC00736BD6 /* Transaction.swift */; };
+		3275F0782DE1DB4B00736BD6 /* TransactionListReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3275F0772DE1DB4B00736BD6 /* TransactionListReducer.swift */; };
+		3275F07B2DE1EAC300736BD6 /* AppReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3275F07A2DE1EAC300736BD6 /* AppReducer.swift */; };
+		3275F07D2DE1EAD000736BD6 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3275F07C2DE1EAD000736BD6 /* AppView.swift */; };
+		3275F0812DE1EB3100736BD6 /* TransactionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3275F0802DE1EB3100736BD6 /* TransactionListView.swift */; };
+		3275F0832DE1EB4100736BD6 /* ChartReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3275F0822DE1EB4100736BD6 /* ChartReducer.swift */; };
+		3275F0852DE1EB4C00736BD6 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3275F0842DE1EB4C00736BD6 /* ChartView.swift */; };
+		3275F0872DE1F3C900736BD6 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3275F0862DE1F3C900736BD6 /* App.swift */; };
+		3275F08C2DE1FDCE00736BD6 /* TransactionListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3275F08B2DE1FDCE00736BD6 /* TransactionListItemView.swift */; };
+		3275F0EE2DE20DFC00736BD6 /* CGFloat+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3275F0ED2DE20DFC00736BD6 /* CGFloat+Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3275F0472DE1D33700736BD6 /* Money-manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Money-manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3275F0582DE1D34800736BD6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3275F05A2DE1D34800736BD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3275F0672DE1D5AA00736BD6 /* AccountsMock.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = AccountsMock.json; sourceTree = "<group>"; };
+		3275F0692DE1D5FE00736BD6 /* Mocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mocks.swift; sourceTree = "<group>"; };
+		3275F06C2DE1D65200736BD6 /* MockLoadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockLoadable.swift; sourceTree = "<group>"; };
+		3275F06F2DE1D77900736BD6 /* AccountService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountService.swift; sourceTree = "<group>"; };
+		3275F0722DE1D7CC00736BD6 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		3275F0772DE1DB4B00736BD6 /* TransactionListReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListReducer.swift; sourceTree = "<group>"; };
+		3275F07A2DE1EAC300736BD6 /* AppReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReducer.swift; sourceTree = "<group>"; };
+		3275F07C2DE1EAD000736BD6 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		3275F0802DE1EB3100736BD6 /* TransactionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListView.swift; sourceTree = "<group>"; };
+		3275F0822DE1EB4100736BD6 /* ChartReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartReducer.swift; sourceTree = "<group>"; };
+		3275F0842DE1EB4C00736BD6 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		3275F0862DE1F3C900736BD6 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		3275F08B2DE1FDCE00736BD6 /* TransactionListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListItemView.swift; sourceTree = "<group>"; };
+		3275F0ED2DE20DFC00736BD6 /* CGFloat+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+Extension.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3275F0442DE1D33700736BD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3275F0642DE1D46A00736BD6 /* ComposableArchitecture in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3275F03E2DE1D33700736BD6 = {
+			isa = PBXGroup;
+			children = (
+				3275F05D2DE1D34800736BD6 /* Money-manager */,
+				3275F0482DE1D33700736BD6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3275F0482DE1D33700736BD6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3275F0472DE1D33700736BD6 /* Money-manager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3275F0592DE1D34800736BD6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3275F0582DE1D34800736BD6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3275F05D2DE1D34800736BD6 /* Money-manager */ = {
+			isa = PBXGroup;
+			children = (
+				3275F0EB2DE20DD600736BD6 /* Utils */,
+				3275F0762DE1DB3D00736BD6 /* Features */,
+				3275F0712DE1D7A800736BD6 /* Models */,
+				3275F0662DE1D57D00736BD6 /* Mocks */,
+				3275F0652DE1D49C00736BD6 /* Resources */,
+				3275F06E2DE1D75E00736BD6 /* Services */,
+			);
+			path = "Money-manager";
+			sourceTree = "<group>";
+		};
+		3275F0652DE1D49C00736BD6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3275F05A2DE1D34800736BD6 /* Assets.xcassets */,
+				3275F0592DE1D34800736BD6 /* Preview Content */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3275F0662DE1D57D00736BD6 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				3275F06C2DE1D65200736BD6 /* MockLoadable.swift */,
+				3275F0692DE1D5FE00736BD6 /* Mocks.swift */,
+				3275F06B2DE1D62B00736BD6 /* Jsons */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		3275F06B2DE1D62B00736BD6 /* Jsons */ = {
+			isa = PBXGroup;
+			children = (
+				3275F0672DE1D5AA00736BD6 /* AccountsMock.json */,
+			);
+			path = Jsons;
+			sourceTree = "<group>";
+		};
+		3275F06E2DE1D75E00736BD6 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3275F06F2DE1D77900736BD6 /* AccountService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		3275F0712DE1D7A800736BD6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3275F0722DE1D7CC00736BD6 /* Transaction.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3275F0762DE1DB3D00736BD6 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				3275F0792DE1EA0100736BD6 /* App */,
+				3275F07E2DE1EAEA00736BD6 /* Chart */,
+				3275F07F2DE1EAF300736BD6 /* TransactionList */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		3275F0792DE1EA0100736BD6 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				3275F0862DE1F3C900736BD6 /* App.swift */,
+				3275F07A2DE1EAC300736BD6 /* AppReducer.swift */,
+				3275F07C2DE1EAD000736BD6 /* AppView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		3275F07E2DE1EAEA00736BD6 /* Chart */ = {
+			isa = PBXGroup;
+			children = (
+				3275F0822DE1EB4100736BD6 /* ChartReducer.swift */,
+				3275F0842DE1EB4C00736BD6 /* ChartView.swift */,
+			);
+			path = Chart;
+			sourceTree = "<group>";
+		};
+		3275F07F2DE1EAF300736BD6 /* TransactionList */ = {
+			isa = PBXGroup;
+			children = (
+				3275F0772DE1DB4B00736BD6 /* TransactionListReducer.swift */,
+				3275F0802DE1EB3100736BD6 /* TransactionListView.swift */,
+				3275F08A2DE1FDB400736BD6 /* Views */,
+			);
+			path = TransactionList;
+			sourceTree = "<group>";
+		};
+		3275F08A2DE1FDB400736BD6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3275F08B2DE1FDCE00736BD6 /* TransactionListItemView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3275F0EB2DE20DD600736BD6 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				3275F0EC2DE20DDF00736BD6 /* Extensions */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		3275F0EC2DE20DDF00736BD6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3275F0ED2DE20DFC00736BD6 /* CGFloat+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3275F0462DE1D33700736BD6 /* Money-manager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3275F0552DE1D33800736BD6 /* Build configuration list for PBXNativeTarget "Money-manager" */;
+			buildPhases = (
+				3275F0432DE1D33700736BD6 /* Sources */,
+				3275F0442DE1D33700736BD6 /* Frameworks */,
+				3275F0452DE1D33700736BD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Money-manager";
+			packageProductDependencies = (
+				3275F0632DE1D46A00736BD6 /* ComposableArchitecture */,
+			);
+			productName = "Money-manager";
+			productReference = 3275F0472DE1D33700736BD6 /* Money-manager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3275F03F2DE1D33700736BD6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					3275F0462DE1D33700736BD6 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = 3275F0422DE1D33700736BD6 /* Build configuration list for PBXProject "Money-manager" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3275F03E2DE1D33700736BD6;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				3275F0622DE1D46A00736BD6 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+				3275F0EF2DE211DA00736BD6 /* XCRemoteSwiftPackageReference "swiftui-introspect" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 3275F0482DE1D33700736BD6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3275F0462DE1D33700736BD6 /* Money-manager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3275F0452DE1D33700736BD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3275F0602DE1D34800736BD6 /* Preview Assets.xcassets in Resources */,
+				3275F0682DE1D5AA00736BD6 /* AccountsMock.json in Resources */,
+				3275F0612DE1D34800736BD6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3275F0432DE1D33700736BD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3275F0832DE1EB4100736BD6 /* ChartReducer.swift in Sources */,
+				3275F0872DE1F3C900736BD6 /* App.swift in Sources */,
+				3275F0EE2DE20DFC00736BD6 /* CGFloat+Extension.swift in Sources */,
+				3275F07B2DE1EAC300736BD6 /* AppReducer.swift in Sources */,
+				3275F0812DE1EB3100736BD6 /* TransactionListView.swift in Sources */,
+				3275F08C2DE1FDCE00736BD6 /* TransactionListItemView.swift in Sources */,
+				3275F0852DE1EB4C00736BD6 /* ChartView.swift in Sources */,
+				3275F0732DE1D7CC00736BD6 /* Transaction.swift in Sources */,
+				3275F0782DE1DB4B00736BD6 /* TransactionListReducer.swift in Sources */,
+				3275F07D2DE1EAD000736BD6 /* AppView.swift in Sources */,
+				3275F06A2DE1D5FE00736BD6 /* Mocks.swift in Sources */,
+				3275F06D2DE1D65200736BD6 /* MockLoadable.swift in Sources */,
+				3275F0702DE1D77900736BD6 /* AccountService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3275F0532DE1D33800736BD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3275F0542DE1D33800736BD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3275F0562DE1D33800736BD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Money-manager/Resources/Preview Content\"";
+				DEVELOPMENT_TEAM = QSPN84S3Z8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "oleksii.karas.Money-manager";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3275F0572DE1D33800736BD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Money-manager/Resources/Preview Content\"";
+				DEVELOPMENT_TEAM = QSPN84S3Z8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "oleksii.karas.Money-manager";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3275F0422DE1D33700736BD6 /* Build configuration list for PBXProject "Money-manager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3275F0532DE1D33800736BD6 /* Debug */,
+				3275F0542DE1D33800736BD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3275F0552DE1D33800736BD6 /* Build configuration list for PBXNativeTarget "Money-manager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3275F0562DE1D33800736BD6 /* Debug */,
+				3275F0572DE1D33800736BD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3275F0622DE1D46A00736BD6 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.20.1;
+			};
+		};
+		3275F0EF2DE211DA00736BD6 /* XCRemoteSwiftPackageReference "swiftui-introspect" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/siteline/swiftui-introspect";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3275F0632DE1D46A00736BD6 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3275F0622DE1D46A00736BD6 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3275F03F2DE1D33700736BD6 /* Project object */;
+}
